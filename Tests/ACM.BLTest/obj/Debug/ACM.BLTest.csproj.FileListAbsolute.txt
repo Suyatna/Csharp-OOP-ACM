@@ -1,0 +1,16 @@
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\ACM.BLTest.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\ACM.BLTest.pdb
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\ACM.BL.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\ACM.BL.pdb
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Projects_C#\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Projects_C#\ACM\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csprojAssemblyReference.cache
+E:\Projects_C#\ACM\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CoreCompileInputs.cache
+E:\Projects_C#\ACM\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CopyComplete
+E:\Projects_C#\ACM\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.dll
+E:\Projects_C#\ACM\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.pdb
