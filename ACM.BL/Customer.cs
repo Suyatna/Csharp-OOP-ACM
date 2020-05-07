@@ -8,6 +8,7 @@ namespace ACM.BL
 {
     public class Customer
     {
-        // type here..
+        public string firstName { get; set; }
+        public string lastName { get; set; }
     }
 }
