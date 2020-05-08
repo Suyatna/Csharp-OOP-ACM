@@ -30,6 +30,24 @@ namespace ACM.BL
             }
         }
 
+        public bool Validate()
+        {
+            bool isValid = true;
 
+            if (string.IsNullOrWhiteSpace(firstName)) isValid = false;
+            if (string.IsNullOrWhiteSpace(emailAddress)) isValid = false;
+
+            return isValid;
+        }
+
+        public Customer Retrieve(int customerId)
+        {
+            return new Customer();
+        }
+
+        public List<Customer> Retrieve()
+        {
+            return new List<Customer>();
+        }
     }
 }
