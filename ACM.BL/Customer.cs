@@ -30,6 +30,16 @@ namespace ACM.BL
             }
         }
 
+        public Customer()
+        {
+
+        }
+
+        public Customer(int customerId)
+        {
+            this.customerId = customerId;
+        }
+
         public bool Validate()
         {
             bool isValid = true;
