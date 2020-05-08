@@ -37,5 +37,21 @@ namespace ACM.BLTest
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void ValidateTest()
+        {
+            var customer = new Customer
+            {
+                firstName = "Suyatna",
+                emailAddress = "zuyatna@gmail.com"
+            };
+
+            var expected = true;
+
+            var actual = customer.Validate();
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
