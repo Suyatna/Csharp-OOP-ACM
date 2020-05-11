@@ -59,5 +59,10 @@ namespace ACM.BL
         {
             return new List<Customer>();
         }
+
+        public bool Save()
+        {
+            return true;
+        }
     }
 }
