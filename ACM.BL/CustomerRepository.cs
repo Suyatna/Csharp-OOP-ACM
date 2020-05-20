@@ -8,7 +8,7 @@
 
             if (customerId == 1)
             {
-                customer.emailAddress = "zuyatna@gmal.com";
+                customer.emailAddress = "zuyatna@gmail.com";
                 customer.firstName = "Suyatna";
                 customer.lastName = "Light";
             }
