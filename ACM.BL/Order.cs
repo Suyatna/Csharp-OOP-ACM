@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    class Order
+    public class Order
     {
-        public int orderId { get; private set; }
-        public DateTimeOffset? orderDate { get; set; }
-
         public Order()
         {
 
@@ -20,24 +17,15 @@ namespace ACM.BL
         {
             this.orderId = orderId;
         }
-
-        public Order Retrieve(int orderId)
-        {
-            return new Order();
-        }
+        
+        public int orderId { get; private set; }
+        public DateTimeOffset? orderDate { get; set; }
 
         public bool Validate()
         {
-            var isValid = true;
-
-            if (orderDate == null) isValid = false;
+            bool isValid = !(orderDate == null);
 
             return isValid;
-        }
-
-        public bool Save()
-        {
-            return true;
         }
     }
 }
