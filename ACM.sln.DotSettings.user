@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=62d661c7_002Db0fd_002D471a_002D9b19_002Dd0e06e844268/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CustomerRepositoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.CustomerRepositoryTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.ProductRepositoryTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.OrderRepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7edc0b5d_002D2ff7_002D4d5b_002Da309_002D0304c1b8313a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc55c7e8_002D39dd_002D4236_002Da62c_002Daf7ae60cefa7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProductRepositoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.ProductRepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
