@@ -8,6 +8,19 @@ namespace ACM.BL
 {
     public class Customer
     {
+        public Customer(): this(0)
+        {
+
+        }
+
+        public Customer(int customerId)
+        {
+            this.customerId = customerId;
+            addressList = new List<Address>();
+        }
+        
+        public List<Address> addressList { get; set; }
+        
         public int customerId { get; private set; }
         public string emailAddress { get; set; }
         public string firstName { get; set; }
@@ -28,16 +41,6 @@ namespace ACM.BL
 
                 return name;
             }
-        }
-
-        public Customer()
-        {
-
-        }
-
-        public Customer(int customerId)
-        {
-            this.customerId = customerId;
         }
 
         public bool Validate()
