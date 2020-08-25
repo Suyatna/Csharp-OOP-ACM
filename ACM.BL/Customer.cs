@@ -39,6 +39,8 @@ namespace ACM.BL
             }
         }
 
+        public override string ToString() => fullName;
+
         public bool Validate()
         {
             bool isValid = !string.IsNullOrWhiteSpace(firstName);

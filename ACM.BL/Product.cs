@@ -23,6 +23,11 @@ namespace ACM.BL
         public string description { get; set; }
         public decimal? currentPrice { get; set; }
 
+        public override string ToString()
+        {
+            return name;
+        }
+
         public bool Validate()
         {
             bool isValid = !string.IsNullOrWhiteSpace(name);

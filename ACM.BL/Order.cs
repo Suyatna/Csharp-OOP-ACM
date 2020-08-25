@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,12 @@ namespace ACM.BL
         public DateTimeOffset? orderDate { get; set; }
         public List<OrderItem> orderItems { get; set; }
         public int shippingAddressId { get; set; }
+
+        public override string ToString()
+        {
+            Debug.Assert(orderDate != null, nameof(orderDate) + " != null");
+            return $"{orderDate.Value.Date} ({orderId})";
+        }
 
         public bool Validate()
         {
