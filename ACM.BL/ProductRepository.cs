@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ACM.BL.Properties
+namespace ACM.BL
 {
     public class ProductRepository
     {
