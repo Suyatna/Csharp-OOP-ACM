@@ -1,4 +1,6 @@
-﻿namespace ACM.BL.Properties
+﻿using System;
+
+namespace ACM.BL.Properties
 {
     public class ProductRepository
     {
@@ -12,6 +14,10 @@
                 product.description = "Assort size set of 4 bright yellow mini sunflowers";
                 product.currentPrice = 15.96M;
             }
+
+            Object myObject = new object();
+            Console.WriteLine($"Object: {myObject.ToString()} ");
+            Console.WriteLine($"Product: {product.ToString()} ");
 
             return product;
         }
