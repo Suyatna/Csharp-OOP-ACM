@@ -14,7 +14,12 @@
     &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.CustomerRepositoryTest.RetrieveExistingWithAddress&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc55c7e8_002D39dd_002D4236_002Da62c_002Daf7ae60cefa7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProductRepositoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bf79d651_002Db710_002D4bf1_002D9cca_002Da5117f7ed892/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RetrieveTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.ProductRepositoryTest.RetrieveTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc55c7e8_002D39dd_002D4236_002Da62c_002Daf7ae60cefa7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ProductRepositoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.ProductRepositoryTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::14C655C0-A694-4BD8-B1F3-FCADED7B858F::.NETCoreApp,Version=v3.1::ACM.BLRider.CustomerRepositoryTest.RetrieveExistingWithAddress&lt;/TestId&gt;&#xD;

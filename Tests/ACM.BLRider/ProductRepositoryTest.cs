@@ -1,5 +1,4 @@
 ﻿using ACM.BL;
-using ACM.BL.Properties;
 using Xunit;
 
 namespace ACM.BLRider
@@ -22,6 +21,46 @@ namespace ACM.BLRider
             Assert.Equal(expected.currentPrice, actual.currentPrice);
             Assert.Equal(expected.description, actual.description);
             Assert.Equal(expected.name, actual.name);
+        }
+
+        [Fact]
+        public void SaveTestValid()
+        {
+            // arrange
+            var productRepository = new ProductRepository();
+            var updateProduct = new Product(2)
+            {
+                currentPrice = 18M,
+                description = "assorted size set of 4 bright yellow mini sunflower",
+                name = "sunflower",
+                hasChange = true
+            };
+            
+            // act
+            var actual = productRepository.Save(updateProduct);
+            
+            // assert
+            Assert.True(actual);
+        }
+
+        [Fact]
+        public void SaveTestMissingPrice()
+        {
+            // arrange
+            var productRepository = new ProductRepository();
+            var updateProduct = new Product(2)
+            {
+                currentPrice = null,
+                description = "assorted size set of 4 bright yellow mini sunflower",
+                name = "sunflower",
+                hasChange = true
+            };
+            
+            // act
+            var actual = productRepository.Save(updateProduct);
+            
+            // assert
+            Assert.False(actual);
         }
     }
 }

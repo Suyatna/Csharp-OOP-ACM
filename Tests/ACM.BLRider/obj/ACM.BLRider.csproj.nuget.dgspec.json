@@ -5,7 +5,6 @@
   },
   "projects": {
     "E:\\Projects_C#\\ACM\\ACM.BL\\ACM.BL.csproj": {
-      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "E:\\Projects_C#\\ACM\\ACM.BL\\ACM.BL.csproj",
         "projectName": "ACM.BL",
@@ -24,13 +23,9 @@
         "packagesPath": "C:\\Users\\Suyatna\\.nuget\\packages\\",
         "outputPath": "E:\\Projects_C#\\ACM\\Tests\\ACM.BLRider\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
           "C:\\Users\\Suyatna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -41,6 +36,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "E:\\Projects_C#\\ACM\\ACM.BL\\ACM.BL.csproj": {
                 "projectPath": "E:\\Projects_C#\\ACM\\ACM.BL\\ACM.BL.csproj"
@@ -56,6 +52,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -89,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
