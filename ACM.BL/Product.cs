@@ -1,4 +1,6 @@
-﻿namespace ACM.BL
+﻿using Acme.Common;
+
+namespace ACM.BL
 {
     public class Product : EntityBase
     {
@@ -16,8 +18,6 @@
         public string description { get; set; }
         public decimal? currentPrice { get; set; }
 
-        public override string ToString() => productName;
-
         public override bool Validate()
         {
             // ReSharper disable once LocalVariableHidesMember
@@ -28,6 +28,20 @@
             return isValid;
         }
 
-        public string productName { get; set; }
+        private string _productName;
+
+        public string productName
+        {
+            get
+            {
+                var stringHandler = new StringHandler();
+                
+                return stringHandler.InsertSpaces(_productName);
+            }
+
+            set => _productName = value;
+        }
+        
+        public override string ToString() => productName;
     }
 }
