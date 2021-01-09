@@ -10,7 +10,7 @@ namespace ACM.BL
 
             if (productId == 2)
             {
-                product.name = "Sunflowers";
+                product.productName = "Sunflowers";
                 product.description = "Assort size set of 4 bright yellow mini sunflowers";
                 product.currentPrice = 15.96M;
             }

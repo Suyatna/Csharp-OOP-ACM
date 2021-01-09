@@ -13,14 +13,14 @@ namespace ACM.BLRider
             {
                 currentPrice = 15.96M,
                 description = "Assort size set of 4 bright yellow mini sunflowers",
-                name = "Sunflowers"
+                productName = "Sunflowers"
             };
 
             var actual = productRepository.Retrieve(2);
             
             Assert.Equal(expected.currentPrice, actual.currentPrice);
             Assert.Equal(expected.description, actual.description);
-            Assert.Equal(expected.name, actual.name);
+            Assert.Equal(expected.productName, actual.productName);
         }
 
         [Fact]
@@ -32,7 +32,7 @@ namespace ACM.BLRider
             {
                 currentPrice = 18M,
                 description = "assorted size set of 4 bright yellow mini sunflower",
-                name = "sunflower",
+                productName = "sunflower",
                 hasChange = true
             };
             
@@ -52,7 +52,7 @@ namespace ACM.BLRider
             {
                 currentPrice = null,
                 description = "assorted size set of 4 bright yellow mini sunflower",
-                name = "sunflower",
+                productName = "sunflower",
                 hasChange = true
             };
             
