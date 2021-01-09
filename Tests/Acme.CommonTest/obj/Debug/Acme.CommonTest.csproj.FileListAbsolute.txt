@@ -1,0 +1,17 @@
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.CommonTest.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.CommonTest.pdb
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.Common.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.abstractions.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.assert.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.core.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.execution.desktop.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.Common.pdb
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.abstractions.xml
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.assert.xml
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.core.xml
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\bin\Debug\xunit.execution.desktop.xml
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.csprojAssemblyReference.cache
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CoreCompileInputs.cache
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CopyComplete
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.dll
+E:\Projects_C#\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.pdb

@@ -11,8 +11,8 @@
         {
             this.productId = productId;
         }
-        
-        public int productId { get; private set; }
+
+        private int productId { get; set; }
         public string description { get; set; }
         public decimal? currentPrice { get; set; }
 
@@ -20,6 +20,7 @@
 
         public override bool Validate()
         {
+            // ReSharper disable once LocalVariableHidesMember
             bool isValid = !string.IsNullOrWhiteSpace(productName);
 
             if (currentPrice == null) isValid = false;
