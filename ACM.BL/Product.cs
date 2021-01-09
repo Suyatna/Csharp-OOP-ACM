@@ -14,6 +14,7 @@ namespace ACM.BL
             this.productId = productId;
         }
 
+        // ReSharper disable once UnusedAutoPropertyAccessor.Local
         private int productId { get; set; }
         public string description { get; set; }
         public decimal? currentPrice { get; set; }
